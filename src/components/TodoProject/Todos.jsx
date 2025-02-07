@@ -6,7 +6,7 @@ console.log(props.todos);
          
      <div>
         {
-            props.todos.map(todo => <Todo key = {todo.id} todo ={todo} >  </Todo>)
+            props.todos.map(todo => <Todo key = {todo.id} id = {todo.id} todo ={todo.todo} >  </Todo>)
         }
      </div>
     )

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const NewTodo = () => {
+const NewTodo = (props) => {
 
   
     const [todo, setTodo] = useState({
@@ -12,6 +12,7 @@ const NewTodo = () => {
         e.preventDefault();
         setTodo({title : "" , description : ""})
         console.log(todo)
+        props.handleTodo(todo);
 
 
     }

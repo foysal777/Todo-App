@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Home></Home>
-      <h1 className="text-2xl text-sky-400">App.jsx</h1>
+    
      
       
     </>
