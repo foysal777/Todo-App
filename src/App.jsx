@@ -1,3 +1,4 @@
+import Country from "./components/CountryApp/Country"
 import CustomHook from "./components/CustomHook/CustomHook"
 import TodoAll from "./components/MyTodo/TodoAll"
 import Home from "./components/TodoProject/Home"
@@ -10,12 +11,14 @@ function App() {
 
   return (
     <>
-      <Home></Home>
-   
+
+<Country></Country>
+      <Home></Home>  
      <TodoAll></TodoAll>
      <Toggle></Toggle>
      <UseEffect></UseEffect>
      <CustomHook></CustomHook>
+   
       
     </>
   )
