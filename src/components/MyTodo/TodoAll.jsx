@@ -64,9 +64,41 @@ const DeleteTodo=(id)=>{
       </div>
     </div>
 
-
-
         </div>
+<section class="p-6 bg-gray-100">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 text-center">Our Features</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Card Title 1</h3>
+        <p class="text-gray-600">This is a short description for the first card.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Card Title 2</h3>
+        <p class="text-gray-600">This is a short description for the second card.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Card Title 3</h3>
+        <p class="text-gray-600">This is a short description for the third card.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Card Title 4</h3>
+        <p class="text-gray-600">This is a short description for the fourth card.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+        
     </div>
   )
 }
