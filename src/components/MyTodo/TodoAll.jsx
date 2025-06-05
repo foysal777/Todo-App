@@ -56,7 +56,7 @@ const DeleteTodo=(id)=>{
               <h3 className="font-semibold text-lg">{todo.title} </h3>
               <p className="text-gray-600"> {todo.description} </p>
             </div>
-            <button onClick={()=>DeleteTodo(todo.id) } className="bg-red-500 hover:bg-red-600 text-white p-2 rounded-full transition duration-200">
+            <button onClick={()=>DeleteTodo(todo.id) } className="bg-green-500 hover:bg-red-600 text-black p-2 rounded-full transition duration-200">
                 <TiDelete size={24} />
             </button>
           </div>
