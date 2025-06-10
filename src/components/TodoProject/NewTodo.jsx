@@ -55,9 +55,9 @@ const NewTodo = (props) => {
                 {/* Add Button */}
                 <button
                     type="submit"
-                    className="w-full bg-teal-400 hover:bg-rose-400 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
+                    className="w-full bg-sky-400 hover:bg-rose-400 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
                 >
-                    Add Todo
+                    Add Todo button
                 </button>
             </form>
 
