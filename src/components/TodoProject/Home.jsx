@@ -20,7 +20,8 @@ const handleAddTodo=(todo)=>{
            <NewTodo handleTodo={handleAddTodo}></NewTodo>
             <Todos todos = {todos} ></Todos>
             <Todo></Todo>
-
+          
+           <Todo></Todo>
         </div>
 
     )
